@@ -5,11 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Divs span, classes og IDs</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            Background: #f4f4f4; 
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .enhance {
+            color: yellow;
+            background: black;
+        }
+    </style>
 </head>
 <body>
-    <div id="main-header">
+    <div id="main-header" class="card">
         <h1>Min webside</h1>
         <p>En nettside om meg</p>
+        <div class="logo">
+            <p>Logo</p>
+        </div>
     </div>
     <ul id="main-nav">
         <li><a href="#">Hjem</a> </li>
@@ -17,12 +32,12 @@
         <li><a href="#">Kontaktinfo</a> </li>
     </ul>
 
-    <div id="about">
+    <div id="about" class="card">
         <h3>Om meg</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate repellat officiis ipsa iure alias natus pariatur quas. Quo quia sed vitae consectetur, sapiente deleniti. Quasi vitae rerum adipisci nisi! Iusto nostrum adipisci eligendi nulla corrupti ipsam non! Saepe, animi provident?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur <span class="enhance">adipisicing elit. Voluptate repellat officiis </span> ipsa iure alias natus pariatur quas. Quo quia sed vitae consectetur, sapiente deleniti. Quasi vitae rerum adipisci nisi! Iusto nostrum adipisci eligendi nulla corrupti ipsam non! Saepe, animi provident?</p>
     </div>
 
-    <div id="contact">
+    <div id="contact" class="card">
         <h3>Kontaktinfo</h3>
         <ul>
             <li>Navn: Har ikke</li>
