@@ -93,7 +93,7 @@
         </table>
         <br><br>
         <!-- Skjermaer -->
-        <form>
+        <form action="prcessøphp"> <!-- https://mittnettsted.no/process.php-->
             <div>
                 <label for="name">Navn</label>
                 <input type="text" id="name" name="name">
@@ -118,7 +118,46 @@
                 <label for="birthday"> Fødselsdag</label><br>
                 <input type="date" name="birthday" id="birthday">
             </div>
+            <input type="submit" value="Lagre">
         </form>
+        <style>
+            .green-border{
+                border: 2px solid green;
+            }
+        </style>
+        <!-- Block vs inline-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum illum dolore vero at odio nam nobis a, ut cupiditate!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class="green-border">test</a>Ab harum eos itaque ut quo maxime tenetur ipsam enim iusto quibusdam dolorem quidem, officiis dignissimos facere accusantium perferendis expedita. Vitae, inventore suscipit consequatur officiis quam voluptates <span class="green-border">aspernatur ad </span>eveniet asperiores laboriosam sequi perferendis! Tenetur, repudiandae! Officiis iure dolores eos repellat rem!</p>
+        <p class="green-border">Lorem ipsum</p> <br> 
+
+        <a href="#"class="green-border">Link 1</a>
+        <a href="#"class="green-border">Link 2</a>
+        <a href="#"class="green-border">Link 3</a><br>
+
+        <!-- HTML Entities-->
+        <!-- Non breaking space &bnsp-->
+        <p>Dette er en test          test</p>
+        <p>Dette er en test &nbsp; &nbsp; &nbsp;    test</p>
+
+        <!-- Større enn og mindre enn-->
+        <p>2 < 5</p>
+        <p> 2 &lt; 5</p>
+        <p> 5 > 2</p>
+        <p>5 &gt; 2</p>
+
+        <!--Valutasymbol-->
+        <p>&pound; &euro; &yen; </p>
+        <p>&oslash; &aring; </p>
+
+        <code>
+            &lt;p&gt;Test&lt;/p&gt;
+        </code>
+        
+        <p>Du kan lagre ved å trykke <kbd>Ctrl + S</kbd></p>
+        
+        <br><br>
+        <!--Copyright-->
+        <p>&copy; Smartstudy</p>
         <a href="#heading">Til Toppen</a>
     </body>
 </html>
