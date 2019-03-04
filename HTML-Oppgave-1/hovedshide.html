@@ -5,21 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Main page</title>
+    <style>
+        .article-image {
+            width: 150px;
+        }
+        #logo {
+            width: 200px;
+            length: 300px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-            <img src="http://lorempixel.com/400/200" />
-            <p>Logo</p>
-    </header>
-    <nav>
+<nav>
         <a href="hovedshide.html">Hovedside</a>
         <a href="About.html">Om oss</a>
-        <a href="Article.html">Ny Artikkel</a>
+        <a href="narticle.html">Ny Artikkel</a>
     </nav>
+    <header>
+            <img src="images/logo.jpg" alt=Logo id="logo">
+    </header>
     <article>
         <h1>Header</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia a recusandae quas neque at non corporis ex tempora doloremque quo ad atque et, ea ratione deserunt iure porro assumenda animi commodi hic sequi quaerat perspiciatis voluptas! Quo non et suscipit voluptates asperiores. Saepe vero delectus, voluptatem ducimus vel assumenda architecto.</p>
+        <img src="http://lorempixel.com/400/200" alt="artikel bilde" class="article-image">
+        <p><strong> ipsum dolor sit amet consectetur, adipisicing elit. Mollitia a recusandae quas neque at non</strong> <a href="article1.html">Les mer</a> </p>
     </article>
-    
+    <article>
+        <h2>header</h2>
+        <img src="http://lorempixel.com/400/200" alt="artikel bilde" class="article-image">
+        <p><strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, labore. Voluptates quasi modi animi nemo nesciunt</strong> <a href="article2.html">Les mer</a> </p>
+    </article>
+    <article>
+        <h3>header</h3>
+        <img src="http://lorempixel.com/400/200" alt="artikel bilde" class="article-image">
+        <p> <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> <a href="Article3.html">Les mer</a> </p>
+    </article>
+    <footer>
+        &copy; Copyright 2019
+    </footer>
+
 </body>
 </html>
